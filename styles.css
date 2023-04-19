@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: url("./images/Juan-Tamariz-2.jpg");
+}
+
+.header-title {
+  color: aqua;
+  font-size: 50px;
+  text-align: center;
+}
+
+.display {
+  display: flex;
+  padding: 20;
+}
+
+.first-card {
+  background-color: aliceblue;
+  border: 1px solid blue;
+  width: 300px;
+  height: 400px;
+  margin: 20px auto;
+  padding: 10px;
+  margin-left: 15%;
+}
+
+.display-second-card {
+  margin-right: 15%;
+}
+
+.second-card {
+  background-color: aliceblue;
+  border: 1px solid blue;
+  width: 300px;
+  height: 400px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.generate-first-card {
+  margin-left: 15%;
+}
+
+.generate-second-card {
+  margin-right: 15%;
+}
